@@ -33,4 +33,4 @@ uv run python train.py --model-path allenai/scibert_scivocab_uncased --epochs 3 
 | `bert-base-uncased` | 0.7587 | 0.726 |
 | `allenai/scibert_scivocab_uncased` | 0.7693 | 0.759 |
 
-Лучшая по обеим метрикам модель — `allenai/scibert_scivocab_uncased` (SciBERT).
+Лучшая по обеим метрикам модель — `allenai/scibert_scivocab_uncased` (SciBERT). Обученный чекпоинт [тут](https://huggingface.co/VladKozlovskiy/paper-classifier).

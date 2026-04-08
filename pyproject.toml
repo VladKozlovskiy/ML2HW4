@@ -1,0 +1,25 @@
+[project]
+name = "ml2hw4"
+version = "0.1.0"
+description = "Подготовка датасета ArXiv → train JSONL и метки"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "datasets>=4.8.0",
+    "tqdm>=4.67.3",
+]
+
+[project.optional-dependencies]
+eda = [
+    "matplotlib>=3.10.0",
+]
+train = [
+    "accelerate>=1.13.0",
+    "scikit-learn>=1.8.0",
+    "tensorboard>=2.14.0",
+    "torch>=2.11.0",
+    "transformers>=5.5.0",
+]
+experiments = [
+    "matplotlib>=3.10.0",
+]
